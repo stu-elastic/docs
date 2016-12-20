@@ -72,13 +72,13 @@
 	   
 
     <!-- css -->
-    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=344" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=755" rel="stylesheet">
     
     
 
-    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=344"></script>
-    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=344"></script>
-    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=344"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=755"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=755"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=755"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -122,7 +122,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=344" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=755" />
 
 
   
@@ -200,7 +200,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=344" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=755" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -249,7 +249,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=344" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=755" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -382,24 +382,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=344">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=755">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=344"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=755"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -432,7 +432,7 @@
       });
     });
 
-    $('.dropdown-arrow').on('click', function(e){
+    $('.dropdown-btn').on('click', function(e){
       e.preventDefault();
       setDropdown();
     });
@@ -442,7 +442,7 @@
     }
 
     $('body').on('click', function(event){
-      if (!event.target.matches('.dropdown-arrow')) {
+      if (!event.target.matches('.dropdown-btn')) {
 
         var dropdowns = $(".dropdown-content");
         var i;
@@ -513,7 +513,7 @@
 
     <div class="nav-mobile-dropdown hidden-sm hidden-md hidden-lg bdr-btm-e0e0e0 clearfix">
       <div class="container text-right">
-        <div class="breadcrum-wrapper pull-left text-left">
+        <div class="breadcrum-wrapper text-left">
           
               <a href="/guide">Docs</a>
           
@@ -564,7 +564,7 @@
            
           <a href="_preventing_combinatorial_explosions.html">Preventing Combinatorial Explosions
                »
-            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="preload-fielddata"></a>Preloading Fielddata<a href="https://github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>The default behavior of Elasticsearch is to <a id="id-1.7.12.7.2.1" class="indexterm"></a>
+            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="preload-fielddata"></a>Preloading Fielddata<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>The default behavior of Elasticsearch is to <a id="id-1.7.12.7.2.1" class="indexterm"></a>
 <a id="id-1.7.12.7.2.2" class="indexterm"></a>load in-memory fielddata <span class="emphasis"><em>lazily</em></span>.
 The first time Elasticsearch encounters a query that needs fielddata for a
 particular field, it will load that entire field into memory for each segment
@@ -578,7 +578,7 @@ Eagerly load global ordinals
 </li><li class="listitem">
 Prepopulate caches with warmers
 </li></ul></div><p>All are variations on the same concept: preload the fielddata so that there is
-no latency spike when the user needs to execute a search.</p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="eager-fielddata"></a>Eagerly Loading Fielddata<a href="https://github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The first tool is called <span class="emphasis"><em>eager loading</em></span> (as opposed <a id="id-1.7.12.7.7.2.2" class="indexterm"></a>
+no latency spike when the user needs to execute a search.</p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="eager-fielddata"></a>Eagerly Loading Fielddata<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The first tool is called <span class="emphasis"><em>eager loading</em></span> (as opposed <a id="id-1.7.12.7.7.2.2" class="indexterm"></a>
 <a id="id-1.7.12.7.7.2.3" class="indexterm"></a>to the default lazy
 loading). As new segments are created (by refreshing, flushing, or merging),
 fields with eager loading enabled will have their per-segment fielddata
@@ -600,7 +600,7 @@ this field’s contents into memory.
 the <code class="literal">update-mapping</code> API.</p><div class="warning admon"><div class="icon"><img alt="Warning" src="images/icons/warning.png" /></div><div class="admon_content"><p>Eager loading simply shifts the cost of loading fielddata.  Instead of paying
 at query time, you pay at refresh time.</p><p>Large segments will take longer to refresh than small segments.  Usually,
 large segments are created by merging smaller segments that are already
-visible to search, so the slower refresh time is not important.</p></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="global-ordinals"></a>Global Ordinals<a href="https://github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>One of the techniques used to reduce the memory usage of string
+visible to search, so the slower refresh time is not important.</p></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="global-ordinals"></a>Global Ordinals<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>One of the techniques used to reduce the memory usage of string
 fielddata is <a id="id-1.7.12.7.8.2.1" class="indexterm"></a>called <span class="emphasis"><em>ordinals</em></span>.</p><p>Imagine that we have a billion documents, each of which has a <code class="literal">status</code> field.
 There are only three statuses: <code class="literal">status_pending</code>, <code class="literal">status_published</code>,
 <code class="literal">status_deleted</code>. If we were to hold the full string status in memory for
@@ -629,7 +629,7 @@ identified <span class="emphasis"><em>across all segments</em></span> and stored
 we have already described.</p><p>Now, our <code class="literal">terms</code> aggregation can just aggregate on the global ordinals, and
 the conversion from ordinal to actual string value happens only once at the
 end of the aggregation. This increases performance of aggregations (and
-sorting) by a factor of three or four.</p><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="_building_global_ordinals"></a>Building global ordinals<a href="https://github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4></div></div></div><p>Of course, nothing in life is free. <a id="id-1.7.12.7.8.13.2.1" class="indexterm"></a>
+sorting) by a factor of three or four.</p><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="_building_global_ordinals"></a>Building global ordinals<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4></div></div></div><p>Of course, nothing in life is free. <a id="id-1.7.12.7.8.13.2.1" class="indexterm"></a>
 <a id="id-1.7.12.7.8.13.2.2" class="indexterm"></a> Global ordinals cross all segments in an
 index, so if a new segment is added or an old segment is deleted, the global
 ordinals need to be rebuilt.  Rebuilding requires reading every unique term in
@@ -640,7 +640,7 @@ first request that requires fielddata to hit an index will trigger the
 building of global ordinals. Depending on the cardinality of the field, this
 can result in a significant latency spike for your users.  Once global
 ordinals have been rebuilt, they will be reused until the segments in the index
-change: after a refresh, a flush, or a merge.</p></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="eager-global-ordinals"></a>Eager global ordinals<a href="https://github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4></div></div></div><p>Individual string fields<a id="id-1.7.12.7.8.14.2.1" class="indexterm"></a>
+change: after a refresh, a flush, or a merge.</p></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="eager-global-ordinals"></a>Eager global ordinals<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4></div></div></div><p>Individual string fields<a id="id-1.7.12.7.8.14.2.1" class="indexterm"></a>
 <a id="id-1.7.12.7.8.14.2.2" class="indexterm"></a><a id="id-1.7.12.7.8.14.2.3" class="indexterm"></a>
 <a id="id-1.7.12.7.8.14.2.4" class="indexterm"></a> can be configured to prebuild global ordinals eagerly:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-js">PUT /music/_mapping/_song
 {
@@ -675,7 +675,7 @@ a refresh.  If you index often and query seldom, it is probably better to pay
 the price at query time instead of on every refresh.</p><div class="tip admon"><div class="icon"><img alt="Tip" src="images/icons/tip.png" /></div><div class="admon_content"><p>Make your global ordinals pay for themselves. If you have very high
 cardinality fields that take seconds to rebuild, increase the
 <code class="literal">refresh_interval</code> so that global ordinals remain valid for longer.  This will
-also reduce CPU usage, as you will need to rebuild global ordinals less often.</p></div></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="index-warmers"></a>Index Warmers<a href="https://github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="warning admon"><div class="icon"><img alt="Warning" src="images/icons/warning.png" /></div><div class="admon_content"><h3>Deprecated in 2.3.0.</h3><p>Thanks to disk-based norms and doc values, warmers don’t have use-cases anymore.</p></div></div><p>Finally, we come to <span class="emphasis"><em>index warmers</em></span>.  Warmers<a id="id-1.7.12.7.9.3.2" class="indexterm"></a> predate eager fielddata loading
+also reduce CPU usage, as you will need to rebuild global ordinals less often.</p></div></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="index-warmers"></a>Index Warmers<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-definitive-guide/edit/2.x/300_Aggregations/115_eager.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="warning admon"><div class="icon"><img alt="Warning" src="images/icons/warning.png" /></div><div class="admon_content"><h3>Deprecated in 2.3.0.</h3><p>Thanks to disk-based norms and doc values, warmers don’t have use-cases anymore.</p></div></div><p>Finally, we come to <span class="emphasis"><em>index warmers</em></span>.  Warmers<a id="id-1.7.12.7.9.3.2" class="indexterm"></a> predate eager fielddata loading
 and eager global ordinals, but they still serve a purpose. An index warmer
 allows you to specify a query and aggregations that should be run before a new
 segment is made visible to search. The idea is to prepopulate, or <span class="emphasis"><em>warm</em></span>,
@@ -1065,38 +1065,38 @@ of the details.</p></div></div><div class="navfooter"><span class="prev"><a href
 <style type="text/css">
 	
     
-		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=344") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=755") no-repeat;}
     
     
-      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=344")}		
-    
-	
-    
-		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=344") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=344")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=755")}		
     
 	
     
-		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=344") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=755") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=344")}		
-    
-	
-    
-		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=344") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=344")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=755")}		
     
 	
     
-		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=344") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=755") no-repeat;}
     
     
-      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=344")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=755")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=755") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=755")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=755") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=755")}		
     
 	
 </style>
@@ -1128,10 +1128,10 @@ of the details.</p></div></div><div class="navfooter"><span class="prev"><a href
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=344"></script>
-<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=344"></script>
-<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=344"></script>
-<script src="https://stag-static-www.elastic.co/static/js/script.js?q=344"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=755"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=755"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=755"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=755"></script> 
      
      <style></style>
      

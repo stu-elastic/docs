@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Settings File
         | Logstash Reference [5.x]
       | Elastic
-    </title><meta name="generator" content="DocBook XSL Stylesheets V1.78.1" /><link rel="home" href="index.html" title="Logstash Reference [5.x]" /><link rel="up" href="docker.html" title="Running Logstash on Docker" /><link rel="prev" href="_logging_configuration.html" title="Logging Configuration" /><link rel="next" href="command-line-flags.html" title="Command-Line Flags" /><meta name="description" content="Get started with the documentation for Elasticsearch, Kibana, Logstash, Beats, X-Pack, Elastic Cloud, Elasticsearch for Apache Hadoop, and our language clients." /><meta name="DC.type" content="Docs/Logstash/Reference/5.x" />
+    </title><meta name="generator" content="DocBook XSL Stylesheets V1.78.1" /><link rel="home" href="index.html" title="Logstash Reference [5.x]" /><link rel="up" href="setup-logstash.html" title="Setting Up and Running Logstash" /><link rel="prev" href="docker.html" title="Running Logstash on Docker" /><link rel="next" href="command-line-flags.html" title="Command-Line Flags" /><meta name="description" content="Get started with the documentation for Elasticsearch, Kibana, Logstash, Beats, X-Pack, Elastic Cloud, Elasticsearch for Apache Hadoop, and our language clients." /><meta name="DC.type" content="Docs/Logstash/Reference/5.x" />
   	
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -72,13 +72,13 @@
 	   
 
     <!-- css -->
-    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=344" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=755" rel="stylesheet">
     
     
 
-    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=344"></script>
-    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=344"></script>
-    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=344"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=755"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=755"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=755"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -122,7 +122,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=344" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=755" />
 
 
   
@@ -200,7 +200,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=344" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=755" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -249,7 +249,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=344" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=755" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -382,24 +382,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=344">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=755">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=344"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=755"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -432,7 +432,7 @@
       });
     });
 
-    $('.dropdown-arrow').on('click', function(e){
+    $('.dropdown-btn').on('click', function(e){
       e.preventDefault();
       setDropdown();
     });
@@ -442,7 +442,7 @@
     }
 
     $('body').on('click', function(event){
-      if (!event.target.matches('.dropdown-arrow')) {
+      if (!event.target.matches('.dropdown-btn')) {
 
         var dropdowns = $(".dropdown-content");
         var i;
@@ -513,7 +513,7 @@
 
     <div class="nav-mobile-dropdown hidden-sm hidden-md hidden-lg bdr-btm-e0e0e0 clearfix">
       <div class="container text-right">
-        <div class="breadcrum-wrapper pull-left text-left">
+        <div class="breadcrum-wrapper text-left">
           
               <a href="/guide">Docs</a>
           
@@ -559,9 +559,9 @@ Not what you want? See the
 <a href="../current/index.html">current release documentation</a>.
 </div><div class="breadcrumbs"><span class="breadcrumb-link"><a href="index.html">Logstash Reference
       [5.x]
-    </a></span> » <span class="breadcrumb-link"><a href="docker.html">Running Logstash on Docker</a></span> » <span class="breadcrumb-node">Settings File</span></div><div class="navheader"><span class="prev"><a href="_logging_configuration.html">
+    </a></span> » <span class="breadcrumb-link"><a href="setup-logstash.html">Setting Up and Running Logstash</a></span> » <span class="breadcrumb-node">Settings File</span></div><div class="navheader"><span class="prev"><a href="docker.html">
               « 
-              Logging Configuration</a>
+              Running Logstash on Docker</a>
            
         </span><span class="next">
            
@@ -594,7 +594,7 @@ pipeline.batch.delay: 5</pre></div><p>The <code class="literal">logstash.yml</co
   each config block with the source file it came from.</p></td><td align="left" valign="top"><p><code class="literal">false</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">config.reload.automatic</code></p></td><td align="left" valign="top"><p>When set to <code class="literal">true</code>, periodically checks if the configuration has changed and reloads the configuration whenever it is changed.
   This can also be triggered manually through the SIGHUP signal.</p></td><td align="left" valign="top"><p><code class="literal">false</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">config.reload.interval</code></p></td><td align="left" valign="top"><p>How often in seconds Logstash checks the config files for changes.</p></td><td align="left" valign="top"><p><code class="literal">3</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">config.debug</code></p></td><td align="left" valign="top"><p>When set to <code class="literal">true</code>, shows the fully compiled configuration as a debug log message. You must also set <code class="literal">log.level: debug</code>.
   WARNING: The log message will include any <span class="emphasis"><em>password</em></span> options passed to plugin configs as plaintext, and may result
-  in plaintext passwords appearing in your logs!</p></td><td align="left" valign="top"><p><code class="literal">false</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">http.host</code></p></td><td align="left" valign="top"><p>The bind address for the metrics REST endpoint.</p></td><td align="left" valign="top"><p><code class="literal">"127.0.0.1"</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">http.port</code></p></td><td align="left" valign="top"><p>The bind port for the metrics REST endpoint.</p></td><td align="left" valign="top"><p><code class="literal">9600</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">log.level</code></p></td><td align="left" valign="top"><p>The log level. Valid options are:</p>
+  in plaintext passwords appearing in your logs!</p></td><td align="left" valign="top"><p><code class="literal">false</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">queue.type</code></p></td><td align="left" valign="top"><p>The internal queuing model to use for event buffering. Specify <code class="literal">memory</code> for legacy in-memory based queuing, or <code class="literal">persisted</code> for disk-based ACKed queueing (<a class="link" href="persistent-queues.html" title="Persistent Queues">persistent queues</a>).</p></td><td align="left" valign="top"><p><code class="literal">memory</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">path.queue</code></p></td><td align="left" valign="top"><p>The directory path where the data files will be stored when persistent queues are enabled (<code class="literal">queue.type: persisted</code>).</p></td><td align="left" valign="top"><p><code class="literal">path.data/queue</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">queue.page_capacity</code></p></td><td align="left" valign="top"><p>The size of the page data files used when persistent queues are enabled (<code class="literal">queue.type: persisted</code>). The queue data consists of append-only data files separated into pages.</p></td><td align="left" valign="top"><p>250mb</p></td></tr><tr><td align="left" valign="top"><p><code class="literal">queue.max_events</code></p></td><td align="left" valign="top"><p>The maximum number of unread events in the queue when persistent queues are enabled (<code class="literal">queue.type: persisted</code>).</p></td><td align="left" valign="top"><p>0 (unlimited)</p></td></tr><tr><td align="left" valign="top"><p><code class="literal">queue.max_bytes</code></p></td><td align="left" valign="top"><p>The total capacity of the queue in number of bytes. Make sure the capacity of your disk drive is greater than the value you specify here. If both <code class="literal">queue.max_events</code> and <code class="literal">queue.max_bytes</code> are specified, Logstash uses whichever criteria is reached first.</p></td><td align="left" valign="top"><p>1024mb (1g)</p></td></tr><tr><td align="left" valign="top"><p><code class="literal">queue.checkpoint.acks</code></p></td><td align="left" valign="top"><p>The maximum number of ACKed events before forcing a checkpoint when persistent queues are enabled (<code class="literal">queue.type: persisted</code>). Specify <code class="literal">queue.checkpoint.acks: 0</code> to set this value to unlimited.</p></td><td align="left" valign="top"><p>1024</p></td></tr><tr><td align="left" valign="top"><p><code class="literal">queue.checkpoint.writes</code></p></td><td align="left" valign="top"><p>The maximum number of written events before forcing a checkpoint when persistent queues are enabled (<code class="literal">queue.type: persisted</code>). Specify <code class="literal">queue.checkpoint.writes: 0</code> to set this value to unlimited.</p></td><td align="left" valign="top"><p>1024</p></td></tr><tr><td align="left" valign="top"><p><code class="literal">queue.checkpoint.interval</code></p></td><td align="left" valign="top"><p>The interval in milliseconds when a checkpoint is forced on the head page when persistent queues are enabled (<code class="literal">queue.type: persisted</code>). Specify <code class="literal">queue.checkpoint.interval: 0</code> for no periodic checkpoint.</p></td><td align="left" valign="top"><p>1000</p></td></tr><tr><td align="left" valign="top"><p><code class="literal">http.host</code></p></td><td align="left" valign="top"><p>The bind address for the metrics REST endpoint.</p></td><td align="left" valign="top"><p><code class="literal">"127.0.0.1"</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">http.port</code></p></td><td align="left" valign="top"><p>The bind port for the metrics REST endpoint.</p></td><td align="left" valign="top"><p><code class="literal">9600</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">log.level</code></p></td><td align="left" valign="top"><p>The log level. Valid options are:</p>
 <div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
 <code class="literal">fatal</code>
 </li><li class="listitem">
@@ -610,9 +610,9 @@ pipeline.batch.delay: 5</pre></div><p>The <code class="literal">logstash.yml</co
 </li></ul></div></td><td align="left" valign="top"><p><code class="literal">info</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">log.format</code></p></td><td align="left" valign="top"><p>The log format. Set to <code class="literal">json</code> to log in JSON format, or <code class="literal">plain</code> to use <code class="literal">Object#.inspect</code>.</p></td><td align="left" valign="top"><p><code class="literal">plain</code></p></td></tr><tr><td align="left" valign="top"><p><code class="literal">path.logs</code></p></td><td align="left" valign="top"><p>The directory where Logstash will write its log to.</p></td><td align="left" valign="top"><p>`LOGSTASH_HOME/logs</p></td></tr><tr><td align="left" valign="top"><p><code class="literal">path.plugins</code></p></td><td align="left" valign="top"><p>Where to find custom plugins. You can specify this setting multiple times to include
   multiple paths. Plugins are expected to be in a specific directory hierarchy:
   <code class="literal">PATH/logstash/TYPE/NAME.rb</code> where <code class="literal">TYPE</code> is <code class="literal">inputs</code>, <code class="literal">filters</code>, <code class="literal">outputs</code>, or <code class="literal">codecs</code>,
-  and <code class="literal">NAME</code> is the name of the plugin.</p></td><td align="left" valign="top"><p>Platform-specific. See <a class="xref" href="dir-layout.html" title="Logstash Directory Layout">Logstash Directory Layout</a>.</p></td></tr></tbody></table></div></div><div class="navfooter"><span class="prev"><a href="_logging_configuration.html">
+  and <code class="literal">NAME</code> is the name of the plugin.</p></td><td align="left" valign="top"><p>Platform-specific. See <a class="xref" href="dir-layout.html" title="Logstash Directory Layout">Logstash Directory Layout</a>.</p></td></tr></tbody></table></div></div><div class="navfooter"><span class="prev"><a href="docker.html">
               « 
-              Logging Configuration</a>
+              Running Logstash on Docker</a>
            
         </span><span class="next">
            
@@ -950,38 +950,38 @@ pipeline.batch.delay: 5</pre></div><p>The <code class="literal">logstash.yml</co
 <style type="text/css">
 	
     
-		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=344") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=755") no-repeat;}
     
     
-      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=344")}		
-    
-	
-    
-		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=344") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=344")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=755")}		
     
 	
     
-		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=344") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=755") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=344")}		
-    
-	
-    
-		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=344") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=344")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=755")}		
     
 	
     
-		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=344") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=755") no-repeat;}
     
     
-      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=344")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=755")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=755") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=755")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=755") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=755")}		
     
 	
 </style>
@@ -1013,10 +1013,10 @@ pipeline.batch.delay: 5</pre></div><p>The <code class="literal">logstash.yml</co
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=344"></script>
-<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=344"></script>
-<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=344"></script>
-<script src="https://stag-static-www.elastic.co/static/js/script.js?q=344"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=755"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=755"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=755"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=755"></script> 
      
      <style></style>
      

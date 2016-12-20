@@ -1,12 +1,1 @@
-POST _reindex
-{
-  "source": {
-    "index": "test"
-  },
-  "dest": {
-    "index": "test2"
-  },
-  "script": {
-    "inline": "ctx._source.tag = ctx._source.remove(\"flag\")"
-  }
-}
+POST _reindex/task_id:1/_rethrottle?requests_per_second=-1

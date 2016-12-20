@@ -72,13 +72,13 @@
 	   
 
     <!-- css -->
-    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=344" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=755" rel="stylesheet">
     
     
 
-    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=344"></script>
-    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=344"></script>
-    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=344"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=755"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=755"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=755"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -122,7 +122,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=344" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=755" />
 
 
   
@@ -200,7 +200,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=344" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=755" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -249,7 +249,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=344" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=755" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -382,24 +382,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=344">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=755">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=344"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=755"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -432,7 +432,7 @@
       });
     });
 
-    $('.dropdown-arrow').on('click', function(e){
+    $('.dropdown-btn').on('click', function(e){
       e.preventDefault();
       setDropdown();
     });
@@ -442,7 +442,7 @@
     }
 
     $('body').on('click', function(event){
-      if (!event.target.matches('.dropdown-arrow')) {
+      if (!event.target.matches('.dropdown-btn')) {
 
         var dropdowns = $(".dropdown-content");
         var i;
@@ -513,7 +513,7 @@
 
     <div class="nav-mobile-dropdown hidden-sm hidden-md hidden-lg bdr-btm-e0e0e0 clearfix">
       <div class="container text-right">
-        <div class="breadcrum-wrapper pull-left text-left">
+        <div class="breadcrum-wrapper text-left">
           
               <a href="/guide">Docs</a>
           
@@ -567,7 +567,7 @@ Not what you want? See the
            
           <a href="transports.html">Transports
                »
-            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a id="request-pipeline"></a>Request Pipeline<a href="https://github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>Every request is executed in the context of a <code class="literal">RequestPipeline</code> when using the
+            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a id="request-pipeline"></a>Request Pipeline<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>Every request is executed in the context of a <code class="literal">RequestPipeline</code> when using the
 default <a class="link" href="transports.html" title="Transports">ITransport</a> implementation.</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var settings = TestClient.GlobalDefaultSettings;</pre></div><p>When calling <code class="literal">Request()</code> or <code class="literal">RequestAsync()</code> on an <code class="literal">ITransport</code>,
 the whole coordination of the request is deferred to a new instance in a <code class="literal">using</code> block.</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var pipeline = new RequestPipeline(
     settings,
@@ -591,7 +591,11 @@ allowing you to have requests executed on your own custom request pipeline</p><d
     settings,
     requestPipelineFactory,
     DateTimeProvider.Default,
-    new MemoryStreamFactory());</pre></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="_pipeline_behavior"></a>Pipeline Behavior<a href="https://github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_sniffing_on_first_usage"></a>Sniffing on First usage<a href="https://github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var singleNodePipeline = CreatePipeline(uris =&gt; new SingleNodeConnectionPool(uris.First()));
+    new MemoryStreamFactory());</pre></div><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var pool = setupPool(new[] { TestClient.CreateUri(), TestClient.CreateUri(9201) });
+
+var settings = new ConnectionSettings(pool, connection ?? new InMemoryConnection());
+
+settings = settingsSelector?.Invoke(settings) ?? settings;</pre></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="_pipeline_behavior"></a>Pipeline Behavior<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_sniffing_on_first_usage"></a>Sniffing on First usage<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var singleNodePipeline = CreatePipeline(uris =&gt; new SingleNodeConnectionPool(uris.First()));
 
 var staticPipeline = CreatePipeline(uris =&gt; new StaticConnectionPool(uris));
 
@@ -603,57 +607,57 @@ staticPipeline.FirstPoolUsageNeedsSniffing.Should().BeFalse();
 sniffingPipeline.FirstPoolUsageNeedsSniffing.Should().BeTrue();</pre></div><p>We can see that only the cluster that supports reseeding will opt in to <code class="literal">FirstPoolUsageNeedsSniffing()</code>;
 You can however disable reseeding/sniffing on ConnectionSettings</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">sniffingPipeline = CreatePipeline(uris =&gt; new SniffingConnectionPool(uris), s =&gt; s.SniffOnStartup(false));
 
-sniffingPipeline.FirstPoolUsageNeedsSniffing.Should().BeFalse();</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_wait_for_first_sniff"></a>Wait for first Sniff<a href="https://github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>All threads wait for the sniff on startup to finish, waiting the request timeout period. A
+sniffingPipeline.FirstPoolUsageNeedsSniffing.Should().BeFalse();</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_wait_for_first_sniff"></a>Wait for first Sniff<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>All threads wait for the sniff on startup to finish, waiting the request timeout period. A
  <a class="ulink" href="https://msdn.microsoft.com/en-us/library/system.threading.semaphoreslim(v=vs.110).aspx" target="_top"><code class="literal">SemaphoreSlim</code></a>
 is used to block threads until the sniff finishes and waiting threads release the <code class="literal">SemaphoreSlim</code> appropriately.</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var response = new
+{
+    cluster_name = "elasticsearch",
+    nodes = new
+    {
+        node1 = new
+        {
+            name = "Node Name 1",
+            transport_address = "127.0.0.1:9300",
+            host = "127.0.0.1",
+            ip = "127.0.01",
+            version = "5.0.0-alpha3",
+            build = "e455fd0",
+            http_address = "127.0.0.1:9200",
+            settings = new JObject
             {
-                cluster_name = "elasticsearch",
-                nodes = new
-                {
-                    node1 = new
-                    {
-                        name = "Node Name 1",
-                        transport_address = "127.0.0.1:9300",
-                        host = "127.0.0.1",
-                        ip = "127.0.01",
-                        version = "5.0.0-alpha3",
-                        build = "e455fd0",
-                        http_address = "127.0.0.1:9200",
-                        settings = new JObject
-                        {
-                            {"client.type", "node"},
-                            {"cluster.name", "elasticsearch"},
-                            {"config.ignore_system_properties", "true"},
-                            {"name", "Node Name 1"},
-                            {"path.home", "c:\\elasticsearch\\elasticsearch"},
-                            {"path.logs", "c:/ elasticsearch/logs"}
-                        }
-                    }
-                }
-            };
+                {"client.type", "node"},
+                {"cluster.name", "elasticsearch"},
+                {"config.ignore_system_properties", "true"},
+                {"name", "Node Name 1"},
+                {"path.home", "c:\\elasticsearch\\elasticsearch"},
+                {"path.logs", "c:/ elasticsearch/logs"}
+            }
+        }
+    }
+};
 
 var responseBody = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(response));
 
 var inMemoryConnection = new WaitingInMemoryConnection(
-                TimeSpan.FromSeconds(1),
-                responseBody);
+    TimeSpan.FromSeconds(1),
+    responseBody);
 
 var sniffingPipeline = CreatePipeline(
-                uris =&gt; new SniffingConnectionPool(uris),
-                connection: inMemoryConnection,
-                settingsSelector: s =&gt; s.RequestTimeout(TimeSpan.FromSeconds(2)));
+    uris =&gt; new SniffingConnectionPool(uris),
+    connection: inMemoryConnection,
+    settingsSelector: s =&gt; s.RequestTimeout(TimeSpan.FromSeconds(2)));
 
 var semaphoreSlim = new SemaphoreSlim(1, 1);</pre></div><p>start three tasks that will initiate a sniff on startup. The first task will successfully
 sniff on startup with the remaining two waiting tasks exiting without exception and releasing
-the <code class="literal">SemaphoreSlim</code>.</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var task1 = Task.Run(() =&gt; sniffingPipeline.FirstPoolUsage(semaphoreSlim));
+the <code class="literal">SemaphoreSlim</code>.</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var task1 = System.Threading.Tasks.Task.Run(() =&gt; sniffingPipeline.FirstPoolUsage(semaphoreSlim));
 
-var task2 = Task.Run(() =&gt; sniffingPipeline.FirstPoolUsage(semaphoreSlim));
+var task2 = System.Threading.Tasks.Task.Run(() =&gt; sniffingPipeline.FirstPoolUsage(semaphoreSlim));
 
-var task3 = Task.Run(() =&gt; sniffingPipeline.FirstPoolUsage(semaphoreSlim));
+var task3 = System.Threading.Tasks.Task.Run(() =&gt; sniffingPipeline.FirstPoolUsage(semaphoreSlim));
 
-var exception = Record.Exception(() =&gt; Task.WaitAll(task1, task2, task3));
+var exception = Record.Exception(() =&gt; System.Threading.Tasks.Task.WaitAll(task1, task2, task3));
 
-exception.Should().BeNull();</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_sniffing_on_connection_failure"></a>Sniffing on Connection Failure<a href="https://github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var singleNodePipeline = CreatePipeline(uris =&gt; new SingleNodeConnectionPool(uris.First()));
+exception.Should().BeNull();</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_sniffing_on_connection_failure"></a>Sniffing on Connection Failure<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var singleNodePipeline = CreatePipeline(uris =&gt; new SingleNodeConnectionPool(uris.First()));
 
 var staticPipeline = CreatePipeline(uris =&gt; new StaticConnectionPool(uris));
 
@@ -666,7 +670,7 @@ staticPipeline.SniffsOnConnectionFailure.Should().BeFalse();
 sniffingPipeline.SniffsOnConnectionFailure.Should().BeTrue();</pre></div><p>Only the cluster that supports reseeding will opt in to SniffsOnConnectionFailure()
 You can however disable this on ConnectionSettings</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">sniffingPipeline = CreatePipeline(uris =&gt; new SniffingConnectionPool(uris), s =&gt; s.SniffOnConnectionFault(false));
 
-sniffingPipeline.SniffsOnConnectionFailure.Should().BeFalse();</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_sniffing_on_stale_cluster"></a>Sniffing on Stale cluster<a href="https://github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var dateTime = new TestableDateTimeProvider();
+sniffingPipeline.SniffsOnConnectionFailure.Should().BeFalse();</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_sniffing_on_stale_cluster"></a>Sniffing on Stale cluster<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var dateTime = new TestableDateTimeProvider();
 
 var singleNodePipeline = CreatePipeline(uris =&gt;
     new SingleNodeConnectionPool(uris.First(), dateTime), dateTimeProvider: dateTime);
@@ -689,7 +693,7 @@ staticPipeline.StaleClusterState.Should().BeFalse();
 
 sniffingPipeline.StaleClusterState.Should().BeFalse();</pre></div><p>go one hour into the future</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">dateTime.ChangeTime(d =&gt; d.Add(TimeSpan.FromHours(2)));</pre></div><p>connection pools that do not support reseeding never go stale</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">singleNodePipeline.StaleClusterState.Should().BeFalse();
 
-staticPipeline.StaleClusterState.Should().BeFalse();</pre></div><p>the sniffing connection pool supports reseeding so the pipeline will signal the state is out of date</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">sniffingPipeline.StaleClusterState.Should().BeTrue();</pre></div></div></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="_retrying_requests"></a>Retrying requests<a href="https://github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>A request pipeline also checks whether the overall time across multiple retries exceeds the request timeout.
+staticPipeline.StaleClusterState.Should().BeFalse();</pre></div><p>the sniffing connection pool supports reseeding so the pipeline will signal the state is out of date</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">sniffingPipeline.StaleClusterState.Should().BeTrue();</pre></div></div></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="_retrying_requests"></a>Retrying requests<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-net/edit/2.x/docs/client-concepts/connection-pooling/building-blocks/request-pipelines.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>A request pipeline also checks whether the overall time across multiple retries exceeds the request timeout.
 See the <a class="link" href="max-retries.html" title="Max Retries">max retry documentation</a> for more details, here we assert that our request pipeline exposes this propertly</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-csharp">var dateTime = new TestableDateTimeProvider();
 
 var singleNodePipeline = CreatePipeline(uris =&gt;
@@ -1056,38 +1060,38 @@ sniffingPipeline.SniffPath.Should().Be("_nodes/_all/settings?flat_settings&amp;t
 <style type="text/css">
 	
     
-		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=344") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=755") no-repeat;}
     
     
-      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=344")}		
-    
-	
-    
-		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=344") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=344")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=755")}		
     
 	
     
-		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=344") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=755") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=344")}		
-    
-	
-    
-		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=344") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=344")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=755")}		
     
 	
     
-		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=344") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=755") no-repeat;}
     
     
-      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=344")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=755")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=755") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=755")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=755") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=755")}		
     
 	
 </style>
@@ -1119,10 +1123,10 @@ sniffingPipeline.SniffPath.Should().Be("_nodes/_all/settings?flat_settings&amp;t
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=344"></script>
-<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=344"></script>
-<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=344"></script>
-<script src="https://stag-static-www.elastic.co/static/js/script.js?q=344"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=755"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=755"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=755"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=755"></script> 
      
      <style></style>
      

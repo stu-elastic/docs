@@ -72,13 +72,13 @@
 	   
 
     <!-- css -->
-    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=344" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=755" rel="stylesheet">
     
     
 
-    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=344"></script>
-    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=344"></script>
-    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=344"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=755"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=755"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=755"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -122,7 +122,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=344" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=755" />
 
 
   
@@ -200,7 +200,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=344" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=755" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -249,7 +249,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=344" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=755" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -382,24 +382,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=344">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=755">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=344"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=755"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -432,7 +432,7 @@
       });
     });
 
-    $('.dropdown-arrow').on('click', function(e){
+    $('.dropdown-btn').on('click', function(e){
       e.preventDefault();
       setDropdown();
     });
@@ -442,7 +442,7 @@
     }
 
     $('body').on('click', function(event){
-      if (!event.target.matches('.dropdown-arrow')) {
+      if (!event.target.matches('.dropdown-btn')) {
 
         var dropdowns = $(".dropdown-content");
         var i;
@@ -513,7 +513,7 @@
 
     <div class="nav-mobile-dropdown hidden-sm hidden-md hidden-lg bdr-btm-e0e0e0 clearfix">
       <div class="container text-right">
-        <div class="breadcrum-wrapper pull-left text-left">
+        <div class="breadcrum-wrapper text-left">
           
               <a href="/guide">Docs</a>
           
@@ -562,7 +562,7 @@
            
           <a href="contributing.html">Contributing
                »
-            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a id="logging"></a>setup logging<a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h1></div></div></div><p>Every application needs to have some solution for logging, and there isn’t a standard in JavaScript, so instead of forcing you to rely on a specific logging module we created a bare bones logging solution and <a class="xref" href="logging.html#logging-customization" title="Using the default loggers">Using the default loggers</a> will show you how to configure it. That said, our implementation of logging is very minimal and <span class="strong"><strong><span class="strong"><strong>it is highly recommended that you use something like <a class="ulink" href="https://github.com/trentm/node-bunyan" target="_top">Bunyan</a> once you move to production</strong></span></strong></span>.</p><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="_using_a_library"></a>Using A Library<a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>When the client receives a function for the <code class="literal">log:</code> config value, it expects that the function is a constructor for a custom log class. This is the simplest way to integrate other logging libraries into the elasticsearch client at this time. The contract for this Log class is pretty straight-forward. See <a class="ulink" href="https://github.com/elasticsearch/elasticsearch-js/blob/master/src/lib/log.js" target="_top">our implementation</a> for additional details.</p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_new_constructor_config_literal"></a><code class="literal">new Constructor(config)</code><a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
+            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a id="logging"></a>setup logging<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h1></div></div></div><p>Every application needs to have some solution for logging, and there isn’t a standard in JavaScript, so instead of forcing you to rely on a specific logging module we created a bare bones logging solution and <a class="xref" href="logging.html#logging-customization" title="Using the default loggers">Using the default loggers</a> will show you how to configure it. That said, our implementation of logging is very minimal and <span class="strong"><strong><span class="strong"><strong>it is highly recommended that you use something like <a class="ulink" href="https://github.com/trentm/node-bunyan" target="_top">Bunyan</a> once you move to production</strong></span></strong></span>.</p><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="_using_a_library"></a>Using A Library<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>When the client receives a function for the <code class="literal">log:</code> config value, it expects that the function is a constructor for a custom log class. This is the simplest way to integrate other logging libraries into the elasticsearch client at this time. The contract for this Log class is pretty straight-forward. See <a class="ulink" href="https://github.com/elasticsearch/elasticsearch-js/blob/master/src/lib/log.js" target="_top">our implementation</a> for additional details.</p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_new_constructor_config_literal"></a><code class="literal">new Constructor(config)</code><a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
 <p>
 <code class="literal">config</code>
 </p>
@@ -570,7 +570,7 @@
 <p>
 The object that was passed to the client constructor, use to determine the log level.
 </p>
-</td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_error_error_literal"></a><code class="literal">error(error)</code><a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
+</td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_error_error_literal"></a><code class="literal">error(error)</code><a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
 <p>
 <code class="literal">error</code>
 </p>
@@ -578,7 +578,7 @@ The object that was passed to the client constructor, use to determine the log l
 <p>
 <code class="literal">Error</code> — The error that occurred
 </p>
-</td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_warning_message_literal"></a><code class="literal">warning(message)</code><a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
+</td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_warning_message_literal"></a><code class="literal">warning(message)</code><a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
 <p>
 <code class="literal">message</code>
 </p>
@@ -586,7 +586,7 @@ The object that was passed to the client constructor, use to determine the log l
 <p>
 <code class="literal">String</code> — The message to be logged
 </p>
-</td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_info_message_literal"></a><code class="literal">info(message)</code><a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
+</td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_info_message_literal"></a><code class="literal">info(message)</code><a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
 <p>
 <code class="literal">message</code>
 </p>
@@ -594,7 +594,7 @@ The object that was passed to the client constructor, use to determine the log l
 <p>
 <code class="literal">String</code> — The message to be logged
 </p>
-</td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_debug_message_literal"></a><code class="literal">debug(message)</code><a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
+</td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_debug_message_literal"></a><code class="literal">debug(message)</code><a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
 <p>
 <code class="literal">message</code>
 </p>
@@ -602,7 +602,7 @@ The object that was passed to the client constructor, use to determine the log l
 <p>
 <code class="literal">String</code> — The message to be logged
 </p>
-</td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_trace_httpmethod_requesturl_requestbody_responsebody_responsestatus_literal"></a><code class="literal">trace(httpMethod, requestUrl, requestBody, responseBody, responseStatus)</code><a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Called after every HTTP request.</p><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
+</td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_literal_trace_httpmethod_requesturl_requestbody_responsebody_responsestatus_literal"></a><code class="literal">trace(httpMethod, requestUrl, requestBody, responseBody, responseStatus)</code><a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Called after every HTTP request.</p><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
 <p>
 <code class="literal">httpMethod</code>
 </p>
@@ -634,7 +634,7 @@ The object that was passed to the client constructor, use to determine the log l
 <p>
 <code class="literal">Integrer, false-y</code> — The HTTP response status
 </p>
-</td></tr></tbody></table></div></div></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="_bunyan_example"></a>Bunyan Example<a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>In the future we may add loggers for some of the more common libraries, but for now this is an exercise for the user. Here is a hint to get you started implementing a <a class="ulink" href="https://github.com/trentm/node-bunyan" target="_top">Bunyan</a> log class. Be sure to check out the Bunyan repo for more info about setting things up.</p><p><strong>in log_to_bunyan.js. </strong>
+</td></tr></tbody></table></div></div></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="_bunyan_example"></a>Bunyan Example<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>In the future we may add loggers for some of the more common libraries, but for now this is an exercise for the user. Here is a hint to get you started implementing a <a class="ulink" href="https://github.com/trentm/node-bunyan" target="_top">Bunyan</a> log class. Be sure to check out the Bunyan repo for more info about setting things up.</p><p><strong>in log_to_bunyan.js. </strong>
 </p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-js">module.exports = LogToBunyan;
 
 var bunyan = require('bunyan');
@@ -662,7 +662,7 @@ function LogToBunyan(config) {
 var LogClass = require('./log_to_bunyan');
 // now just pass the log class to the client constructor using the "log" config option.
 var client = new elasticsearch.Client({ log: LogClass });</pre></div><p>
-</p></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="logging-customization"></a>Using the default loggers<a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>By default, the client creates a <code class="literal">"warning"</code> level, Console or Stdio logger. To change this, specify the client’s <code class="literal">log:</code> config value to either an array of logger config’s, a single logger config, a log level, an array of log levels, or a constructor for your own logger. That’s a lot of options, so here is an example of each.</p><p><strong>Change the logging level to trace, so we get every log message. </strong>
+</p></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="logging-customization"></a>Using the default loggers<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>By default, the client creates a <code class="literal">"warning"</code> level, Console or Stdio logger. To change this, specify the client’s <code class="literal">log:</code> config value to either an array of logger config’s, a single logger config, a log level, an array of log levels, or a constructor for your own logger. That’s a lot of options, so here is an example of each.</p><p><strong>Change the logging level to trace, so we get every log message. </strong>
 </p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-js">var client = new elasticsearch.Client({ log: 'trace' });</pre></div><p>
 </p><p><strong>Change the logging level, only listen for error and trace messages. </strong>
 </p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-js">var client = new elasticsearch.Client({ log: ['error', 'trace'] });</pre></div><p>
@@ -691,7 +691,7 @@ var client = new elasticsearch.Client({ log: LogClass });</pre></div><p>
     }
   ]
 });</pre></div><p>
-</p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_logger_types"></a>Logger Types<a href="https://github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
+</p><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_logger_types"></a>Logger Types<a href="https://esdocs:e0c186a78765b7fd28a2f2fc03f22d3a6b5754a7@github.com/elastic/elasticsearch-js/edit/12.1/docs/logging.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><div class="horizontal"><table cellpadding="4px" border="0"><colgroup><col /><col /></colgroup><tbody valign="top"><tr><td valign="top">
 <p>
 <code class="literal">"stdio"</code>
 </p>
@@ -1099,38 +1099,38 @@ Default logger for the browser build, logs to the console when one exists.
 <style type="text/css">
 	
     
-		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=344") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=755") no-repeat;}
     
     
-      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=344")}		
-    
-	
-    
-		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=344") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=344")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=755")}		
     
 	
     
-		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=344") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=755") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=344")}		
-    
-	
-    
-		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=344") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=344")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=755")}		
     
 	
     
-		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=344") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=755") no-repeat;}
     
     
-      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=344")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=755")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=755") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=755")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=755") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=755")}		
     
 	
 </style>
@@ -1162,10 +1162,10 @@ Default logger for the browser build, logs to the console when one exists.
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=344"></script>
-<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=344"></script>
-<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=344"></script>
-<script src="https://stag-static-www.elastic.co/static/js/script.js?q=344"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=755"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=755"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=755"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=755"></script> 
      
      <style></style>
      

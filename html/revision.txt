@@ -4,26 +4,26 @@ Repo: beats
   filebeat/docs_1.1      df036f1  Docs: Fix path for beats-dir
   filebeat/docs_1.2      4a8bd97  Docs: Fix path for beats-dir
   filebeat/docs_1.3      13ac8f7  Docs: Fix path for beats-dir
-  filebeat/docs_5.0      1c4f4fe  Add changelog item for #2995 (#3013)
-  filebeat/docs_5.x      3872cb7  Docs: Fix path for beats-dir
-  filebeat/docs_master   c9405bb  Remove beats module (#3032)
+  filebeat/docs_5.0      1de5017  Make it clear in the docs that publish_async is still experimental (#3096) (#3103)
+  filebeat/docs_5.x      01b945b  Automatic merge from master to 5.x branch (#3210)
+  filebeat/docs_master   3890150  Use kebab_case in the settings for the JSON processor (#3111) (#3209)
   libbeat/docs_1.0.1     890ae17  Docs: Fix path for beats-dir
   libbeat/docs_1.1       df036f1  Docs: Fix path for beats-dir
   libbeat/docs_1.2       4a8bd97  Docs: Fix path for beats-dir
   libbeat/docs_1.3       13ac8f7  Docs: Fix path for beats-dir
-  libbeat/docs_5.0       1c4f4fe  Add changelog item for #2995 (#3013)
-  libbeat/docs_5.x       3872cb7  Docs: Fix path for beats-dir
-  libbeat/docs_master    c9405bb  Remove beats module (#3032)
-  metricbeat/docs_5.0    1c4f4fe  Add changelog item for #2995 (#3013)
-  metricbeat/docs_5.x    3872cb7  Docs: Fix path for beats-dir
-  metricbeat/docs_master c9405bb  Remove beats module (#3032)
+  libbeat/docs_5.0       1de5017  Make it clear in the docs that publish_async is still experimental (#3096) (#3103)
+  libbeat/docs_5.x       01b945b  Automatic merge from master to 5.x branch (#3210)
+  libbeat/docs_master    3890150  Use kebab_case in the settings for the JSON processor (#3111) (#3209)
+  metricbeat/docs_5.0    1de5017  Make it clear in the docs that publish_async is still experimental (#3096) (#3103)
+  metricbeat/docs_5.x    01b945b  Automatic merge from master to 5.x branch (#3210)
+  metricbeat/docs_master 3890150  Use kebab_case in the settings for the JSON processor (#3111) (#3209)
   packetbeat/docs_1.0.1  890ae17  Docs: Fix path for beats-dir
   packetbeat/docs_1.1    df036f1  Docs: Fix path for beats-dir
   packetbeat/docs_1.2    4a8bd97  Docs: Fix path for beats-dir
   packetbeat/docs_1.3    13ac8f7  Docs: Fix path for beats-dir
-  packetbeat/docs_5.0    1c4f4fe  Add changelog item for #2995 (#3013)
-  packetbeat/docs_5.x    3872cb7  Docs: Fix path for beats-dir
-  packetbeat/docs_master c9405bb  Remove beats module (#3032)
+  packetbeat/docs_5.0    1de5017  Make it clear in the docs that publish_async is still experimental (#3096) (#3103)
+  packetbeat/docs_5.x    01b945b  Automatic merge from master to 5.x branch (#3210)
+  packetbeat/docs_master 3890150  Use kebab_case in the settings for the JSON processor (#3111) (#3209)
   topbeat/docs_1.0.1     890ae17  Docs: Fix path for beats-dir
   topbeat/docs_1.1       df036f1  Docs: Fix path for beats-dir
   topbeat/docs_1.2       4a8bd97  Docs: Fix path for beats-dir
@@ -31,14 +31,14 @@ Repo: beats
   winlogbeat/docs_1.1    df036f1  Docs: Fix path for beats-dir
   winlogbeat/docs_1.2    4a8bd97  Docs: Fix path for beats-dir
   winlogbeat/docs_1.3    13ac8f7  Docs: Fix path for beats-dir
-  winlogbeat/docs_5.0    1c4f4fe  Add changelog item for #2995 (#3013)
-  winlogbeat/docs_5.x    3872cb7  Docs: Fix path for beats-dir
-  winlogbeat/docs_master c9405bb  Remove beats module (#3032)
+  winlogbeat/docs_5.0    1de5017  Make it clear in the docs that publish_async is still experimental (#3096) (#3103)
+  winlogbeat/docs_5.x    01b945b  Automatic merge from master to 5.x branch (#3210)
+  winlogbeat/docs_master 3890150  Use kebab_case in the settings for the JSON processor (#3111) (#3209)
 
 Repo: cloud
 --------------------------------------------------------------------------------
   docs/cloud-enterprise_1.0.0-alpha3 88cc443  Add Pioneer Program language to CE docs for #2173 (#2195) (#2250)
-  docs/saas_external                 9ec5e76  Rework close index setting description #2935 (#2936)
+  docs/saas_external                 3618773  Remove transport client limitation #3444 (#3465)
 
 Repo: curator
 --------------------------------------------------------------------------------
@@ -47,69 +47,69 @@ Repo: curator
   docs/asciidoc_3.5 7ffc821  Merge pull request #586 from untergeek/3.5.1_docs
   docs/asciidoc_4.0 aa172fe  Revert "Merge branch '4.x' into 4.0"
   docs/asciidoc_4.1 17a46f1  Fix es requirements
-  docs/asciidoc_4.2 0b6e321  Merge branch 'master' into 4.x
+  docs/asciidoc_4.2 ee7e605  Merge branch 'master' into 4.x
 
 Repo: elasticsearch
 --------------------------------------------------------------------------------
-  docs/community-clients_master 407624c  Merge remote-tracking branch 'origin/master'
+  docs/community-clients_master 850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
   docs/groovy-api_0.90          d2bcbdf  Make REST spec param types consistent
   docs/groovy-api_1.3           1f38067  Fixed doc version links
   docs/groovy-api_1.4           49ed535  Fixed doc version links
   docs/groovy-api_1.5           9d0de40  Fixed doc version links
   docs/groovy-api_1.6           5de4cb1  Fixed doc version links
-  docs/groovy-api_1.7           6d95de2  Clarify requesting all stats in node stats docs
+  docs/groovy-api_1.7           54669d6  Bump versions and add BWC indices
   docs/groovy-api_2.0           cbe06d1  Fixed doc version links
   docs/groovy-api_2.1           9a7d5e7  Fixed doc version links
-  docs/groovy-api_2.2           e6c7338  docs: add note on the downside about using terms lookup and other queries that fetch data as part of query parsing in the percolator.
-  docs/groovy-api_2.3           75e12c7  Merge pull request #20975 from zhenxing914/2.3
-  docs/groovy-api_2.4           23f96c4  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/groovy-api_5.0           308279b  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/groovy-api_5.x           43795b6  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/groovy-api_master        407624c  Merge remote-tracking branch 'origin/master'
+  docs/groovy-api_2.2           4d5b739  Specify fielddata formats in string docs (#21588)
+  docs/groovy-api_2.3           e432064  Specify fielddata formats in string docs (#21588)
+  docs/groovy-api_2.4           fcbb46d  Only update DocumentMapper if field type changes (#22165)
+  docs/groovy-api_5.0           fc39313  Only update DocumentMapper if field type changes (#22165)
+  docs/groovy-api_5.x           9f71e05  Reinex test: don't fail if iis is running on port 0
+  docs/groovy-api_master        850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
   docs/java-api_0.90            d2bcbdf  Make REST spec param types consistent
   docs/java-api_1.3             1f38067  Fixed doc version links
   docs/java-api_1.4             49ed535  Fixed doc version links
   docs/java-api_1.5             9d0de40  Fixed doc version links
   docs/java-api_1.6             5de4cb1  Fixed doc version links
-  docs/java-api_1.7             6d95de2  Clarify requesting all stats in node stats docs
+  docs/java-api_1.7             54669d6  Bump versions and add BWC indices
   docs/java-api_2.0             cbe06d1  Fixed doc version links
   docs/java-api_2.1             9a7d5e7  Fixed doc version links
-  docs/java-api_2.2             e6c7338  docs: add note on the downside about using terms lookup and other queries that fetch data as part of query parsing in the percolator.
-  docs/java-api_2.3             75e12c7  Merge pull request #20975 from zhenxing914/2.3
-  docs/java-api_2.4             23f96c4  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/java-api_5.0             308279b  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/java-api_5.x             43795b6  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/java-api_master          407624c  Merge remote-tracking branch 'origin/master'
-  docs/java-rest_5.0            308279b  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/java-rest_5.x            43795b6  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/java-rest_master         407624c  Merge remote-tracking branch 'origin/master'
-  docs/perl_master              407624c  Merge remote-tracking branch 'origin/master'
-  docs/plugins_1.7              6d95de2  Clarify requesting all stats in node stats docs
+  docs/java-api_2.2             4d5b739  Specify fielddata formats in string docs (#21588)
+  docs/java-api_2.3             e432064  Specify fielddata formats in string docs (#21588)
+  docs/java-api_2.4             fcbb46d  Only update DocumentMapper if field type changes (#22165)
+  docs/java-api_5.0             fc39313  Only update DocumentMapper if field type changes (#22165)
+  docs/java-api_5.x             9f71e05  Reinex test: don't fail if iis is running on port 0
+  docs/java-api_master          850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/java-rest_5.0            fc39313  Only update DocumentMapper if field type changes (#22165)
+  docs/java-rest_5.x            9f71e05  Reinex test: don't fail if iis is running on port 0
+  docs/java-rest_master         850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/perl_master              850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/plugins_1.7              54669d6  Bump versions and add BWC indices
   docs/plugins_2.0              cbe06d1  Fixed doc version links
   docs/plugins_2.1              9a7d5e7  Fixed doc version links
-  docs/plugins_2.2              e6c7338  docs: add note on the downside about using terms lookup and other queries that fetch data as part of query parsing in the percolator.
-  docs/plugins_2.3              75e12c7  Merge pull request #20975 from zhenxing914/2.3
-  docs/plugins_2.4              23f96c4  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/plugins_5.0              308279b  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/plugins_5.x              43795b6  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/plugins_master           407624c  Merge remote-tracking branch 'origin/master'
-  docs/python_master            407624c  Merge remote-tracking branch 'origin/master'
+  docs/plugins_2.2              4d5b739  Specify fielddata formats in string docs (#21588)
+  docs/plugins_2.3              e432064  Specify fielddata formats in string docs (#21588)
+  docs/plugins_2.4              fcbb46d  Only update DocumentMapper if field type changes (#22165)
+  docs/plugins_5.0              fc39313  Only update DocumentMapper if field type changes (#22165)
+  docs/plugins_5.x              9f71e05  Reinex test: don't fail if iis is running on port 0
+  docs/plugins_master           850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/python_master            850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
   docs/reference_0.90           d2bcbdf  Make REST spec param types consistent
   docs/reference_1.3            1f38067  Fixed doc version links
   docs/reference_1.4            49ed535  Fixed doc version links
   docs/reference_1.5            9d0de40  Fixed doc version links
   docs/reference_1.6            5de4cb1  Fixed doc version links
-  docs/reference_1.7            6d95de2  Clarify requesting all stats in node stats docs
+  docs/reference_1.7            54669d6  Bump versions and add BWC indices
   docs/reference_2.0            cbe06d1  Fixed doc version links
   docs/reference_2.1            9a7d5e7  Fixed doc version links
-  docs/reference_2.2            e6c7338  docs: add note on the downside about using terms lookup and other queries that fetch data as part of query parsing in the percolator.
-  docs/reference_2.3            75e12c7  Merge pull request #20975 from zhenxing914/2.3
-  docs/reference_2.4            23f96c4  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/reference_5.0            308279b  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/reference_5.x            43795b6  [TEST] Fix testTimedOutUpdateTaskCleanedUp to wait for blocking task to be completed
-  docs/reference_master         407624c  Merge remote-tracking branch 'origin/master'
-  docs/resiliency_master        407624c  Merge remote-tracking branch 'origin/master'
-  docs/ruby_master              407624c  Merge remote-tracking branch 'origin/master'
+  docs/reference_2.2            4d5b739  Specify fielddata formats in string docs (#21588)
+  docs/reference_2.3            e432064  Specify fielddata formats in string docs (#21588)
+  docs/reference_2.4            fcbb46d  Only update DocumentMapper if field type changes (#22165)
+  docs/reference_5.0            fc39313  Only update DocumentMapper if field type changes (#22165)
+  docs/reference_5.x            9f71e05  Reinex test: don't fail if iis is running on port 0
+  docs/reference_master         850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/resiliency_master        850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/ruby_master              850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
 
 Repo: elasticsearch-hadoop
 --------------------------------------------------------------------------------
@@ -117,29 +117,29 @@ Repo: elasticsearch-hadoop
   docs/src/reference/asciidoc_2.1    46f156f  bump version
   docs/src/reference/asciidoc_2.2    c11e37b  2.2.0 release
   docs/src/reference/asciidoc_2.3    054bf27  2.3.4 release
-  docs/src/reference/asciidoc_2.4    4ab7a3e  2.4.0 release
-  docs/src/reference/asciidoc_5.0    5712243  5.0.1 release
-  docs/src/reference/asciidoc_5.x    c196480  bump version
-  docs/src/reference/asciidoc_master 839bcfd  [BUILD] Fixing source and target compatibility versions for the scala compiler
+  docs/src/reference/asciidoc_2.4    6e0a38a  2.4.3 Release
+  docs/src/reference/asciidoc_5.0    5246010  Update preface doc (#902)
+  docs/src/reference/asciidoc_5.x    ad54d66  [DOC] Clarifying a missed breaking change
+  docs/src/reference/asciidoc_master b7ea331  Fixing concurrent modification exceptions in the pooling logic.
 
 Repo: elasticsearch-js
 --------------------------------------------------------------------------------
-  docs_12.1 44cbf5f  version 12.1.0
+  docs_12.1 2220626  version 12.1.3
 
 Repo: elasticsearch-net
 --------------------------------------------------------------------------------
   docs_1.x    ece99e6  Merge branch '1.x' of github.com:elastic/elasticsearch-net into 1.x
-  docs_2.x    ec24028  Merge branch 'fix/2.x-highlight-max-boundary-scan' into 2.x
-  docs_5.x    1b3e4be  Return of the <inheritdoc /> (#2379)
-  docs_master 3374e33  Return of the <inheritdoc /> (#2379)
+  docs_2.x    db19acc  updated project.json dependencies for test projecT
+  docs_5.x    d4fcc92  Use SemanticVersioning nuget package (#2482)
+  docs_master 30503c1  Use SemanticVersioning nuget package (#2482)
 
 Repo: elasticsearch-php
 --------------------------------------------------------------------------------
   docs_0.4    ecd9be4  Docs: Fixed broken link.
   docs_1.0    eaf6e4a  Update travis
-  docs_2.0    588ede9  Update changelog
-  docs_5.0    30baa0d  [TEST] Make sure property_exists calls only ocurr on objects
-  docs_master 19bf19d  [TEST] Try installing package instead of pecl
+  docs_2.0    12a4006  Update changelog
+  docs_5.0    ffe0510  Catch additional exceptions in the ping function for those who use multiple nodes in their connection pool.
+  docs_master d857dd3  Catch additional exceptions in the ping function for those who use multiple nodes in their connection pool.
 
 Repo: guide
 --------------------------------------------------------------------------------
@@ -156,10 +156,10 @@ Repo: kibana
   docs_4.3    b30de14  Docs: Updated Loading Sample Data to download all datasets from S3 (#8999)
   docs_4.4    fb691c7  Docs: Updated Loading Sample Data to download all datasets from S3 (#8999)
   docs_4.5    b9cb1d3  Docs: Updated Loading Sample Data to download all datasets from S3 (#8999)
-  docs_4.6    929d42a  Docs: Updated Loading Sample Data to download all datasets from S3 (#8999)
-  docs_5.0    2ecb140  [plugin cli] Wrap arguments in quotes to preserve whitespace (#9123)
-  docs_5.x    d58ba76  Add original message back to loading screen. (#9131)
-  docs_master 96a668b  Add original message back to loading screen. (#9098)
+  docs_4.6    1fea6c3  docs: known plugins for 4.x
+  docs_5.0    eea7d72  docs: branch is now a variable
+  docs_5.x    dfd16c6  Add support for ButtonGroups to contain a single Button. (#9566)
+  docs_master f0d0004  Add support for ButtonGroups to contain a single Button. (#9565)
 
 Repo: logstash
 --------------------------------------------------------------------------------
@@ -169,9 +169,9 @@ Repo: logstash
   docs_2.2    61a4f5d  Merge pull request #260 from dedemorton/logstash_issue#5558_2.2
   docs_2.3    9a20ea8  Merge pull request #336 from dedemorton/backport_#332_2.3
   docs_2.4    d6cff41  2.4.1 release notes
-  docs_5.0    c980086  Sync from elastic/logstash@2c21c9ebb2722b0eb6eb19b9d6d28ebc24b2f3fd
-  docs_5.x    412e489  Sync from elastic/logstash@17d87496db54c954d1854793d2db62866f1dc820
-  docs_master 1043caf  Sync from elastic/logstash@26ab1f5474b7938e14a7d4d417221594cefeefda
+  docs_5.0    3012f63  Sync from elastic/logstash@99e22c1bfc04005add4ffad128d65aa3cb9a16a0
+  docs_5.x    f049776  Sync from elastic/logstash@0b881c78a64b76fcaea7ff6ad6382bf9da5c29fe
+  docs_master 16cccb1  Sync from elastic/logstash@35999aeeaba71b7d4adde5bbb738ed377f3823f2
 
 Repo: sense
 --------------------------------------------------------------------------------
@@ -179,32 +179,32 @@ Repo: sense
 
 Repo: stack
 --------------------------------------------------------------------------------
-  docs_master f71bc04  Rework Elastic Cloud sections (#6)
+  docs_master c186ae4  Change x-pack link to 'current' as there are no x-pack 'master' docs published
 
 Repo: x-plugins
 --------------------------------------------------------------------------------
-  docs/public/graph_2.3           81b28d3  Fixed absolute link in Shield
-  docs/public/graph_2.4           5faea28  Docs: Fixed formatting error in document & field level security topic.
-  docs/public/marvel_2.0          be70de4  Watcher: Reenabling HipChatServiceTests
-  docs/public/marvel_2.1          ac6ad50  Watcher: Reenabling HipChatServiceTests
-  docs/public/marvel_2.2          3ecf451  Watcher: Reenabling HipChatServiceTests
-  docs/public/marvel_2.3          81b28d3  Fixed absolute link in Shield
-  docs/public/marvel_2.4          5faea28  Docs: Fixed formatting error in document & field level security topic.
+  docs/public/graph_2.3           9e12520  minor typo (#2909)
+  docs/public/graph_2.4           1d64ba5  Docs: Link to reporting docs in watcher email http attachment
+  docs/public/marvel_2.0          70d363d  [DOCS] Fix LDAP realm timeout settings (#4255)
+  docs/public/marvel_2.1          46a2695  [DOCS] Fix LDAP realm timeout settings (#4255)
+  docs/public/marvel_2.2          a7ce823  [DOCS] Fix LDAP realm timeout settings (#4255)
+  docs/public/marvel_2.3          9e12520  minor typo (#2909)
+  docs/public/marvel_2.4          1d64ba5  Docs: Link to reporting docs in watcher email http attachment
   docs/public/marvel_marvel-1.3   4830ef3  Updated docs-too-old header
-  docs/public/reporting_2.4       5faea28  Docs: Fixed formatting error in document & field level security topic.
-  docs/public/shield_2.0          be70de4  Watcher: Reenabling HipChatServiceTests
-  docs/public/shield_2.1          ac6ad50  Watcher: Reenabling HipChatServiceTests
-  docs/public/shield_2.2          3ecf451  Watcher: Reenabling HipChatServiceTests
-  docs/public/shield_2.3          81b28d3  Fixed absolute link in Shield
-  docs/public/shield_2.4          5faea28  Docs: Fixed formatting error in document & field level security topic.
+  docs/public/reporting_2.4       1d64ba5  Docs: Link to reporting docs in watcher email http attachment
+  docs/public/shield_2.0          70d363d  [DOCS] Fix LDAP realm timeout settings (#4255)
+  docs/public/shield_2.1          46a2695  [DOCS] Fix LDAP realm timeout settings (#4255)
+  docs/public/shield_2.2          a7ce823  [DOCS] Fix LDAP realm timeout settings (#4255)
+  docs/public/shield_2.3          9e12520  minor typo (#2909)
+  docs/public/shield_2.4          1d64ba5  Docs: Link to reporting docs in watcher email http attachment
   docs/public/shield_shield-1.0   b2b9edf  Updated docs-too-old header
   docs/public/shield_shield-1.1   c1bfd7a  Updated docs-too-old header
   docs/public/shield_shield-1.2   a38e2bd  Updated docs-too-old header
   docs/public/shield_shield-1.3   8c3df84  Updated docs-too-old header
-  docs/public/watcher_2.0         be70de4  Watcher: Reenabling HipChatServiceTests
-  docs/public/watcher_2.1         ac6ad50  Watcher: Reenabling HipChatServiceTests
-  docs/public/watcher_2.2         3ecf451  Watcher: Reenabling HipChatServiceTests
-  docs/public/watcher_2.3         81b28d3  Fixed absolute link in Shield
-  docs/public/watcher_2.4         5faea28  Docs: Fixed formatting error in document & field level security topic.
+  docs/public/watcher_2.0         70d363d  [DOCS] Fix LDAP realm timeout settings (#4255)
+  docs/public/watcher_2.1         46a2695  [DOCS] Fix LDAP realm timeout settings (#4255)
+  docs/public/watcher_2.2         a7ce823  [DOCS] Fix LDAP realm timeout settings (#4255)
+  docs/public/watcher_2.3         9e12520  minor typo (#2909)
+  docs/public/watcher_2.4         1d64ba5  Docs: Link to reporting docs in watcher email http attachment
   docs/public/watcher_watcher-1.0 c6aca87  Make REST spec params consistent
-  docs/public_5.0                 4615d83  Fix line length
+  docs/public_5.0                 05191ff  [ci] Add jdk9 target to the dev-tools/ci script

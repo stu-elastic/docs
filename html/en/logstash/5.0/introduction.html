@@ -72,13 +72,13 @@
 	   
 
     <!-- css -->
-    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=344" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=755" rel="stylesheet">
     
     
 
-    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=344"></script>
-    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=344"></script>
-    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=344"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=755"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=755"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=755"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -122,7 +122,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=344" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=755" />
 
 
   
@@ -200,7 +200,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=344" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=755" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -249,7 +249,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=344" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=755" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -382,24 +382,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=344">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=755">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=344") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=755") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=344"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=755"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -432,7 +432,7 @@
       });
     });
 
-    $('.dropdown-arrow').on('click', function(e){
+    $('.dropdown-btn').on('click', function(e){
       e.preventDefault();
       setDropdown();
     });
@@ -442,7 +442,7 @@
     }
 
     $('body').on('click', function(event){
-      if (!event.target.matches('.dropdown-arrow')) {
+      if (!event.target.matches('.dropdown-btn')) {
 
         var dropdowns = $(".dropdown-content");
         var i;
@@ -513,7 +513,7 @@
 
     <div class="nav-mobile-dropdown hidden-sm hidden-md hidden-lg bdr-btm-e0e0e0 clearfix">
       <div class="container text-right">
-        <div class="breadcrum-wrapper pull-left text-left">
+        <div class="breadcrum-wrapper text-left">
           
               <a href="/guide">Docs</a>
           
@@ -576,44 +576,37 @@ logs like <a class="link" href="plugins-inputs-log4j.html" title="log4j">log4j</
 Capture many other log formats like <a class="link" href="plugins-inputs-syslog.html" title="syslog">syslog</a>,
 <a class="link" href="plugins-inputs-eventlog.html" title="eventlog">Windows event logs</a>, networking and firewall logs, and more
 </li></ul></div></li><li class="listitem">
-Enjoy complementary secure log forwarding capabilities with <a class="ulink" href="https://github.com/elastic/beats/tree/master/filebeat" target="_top">Filebeat</a>
+Enjoy complementary secure log forwarding capabilities with <a class="ulink" href="https://www.elastic.co/products/beats/filebeat" target="_top">Filebeat</a>
 </li><li class="listitem">
 Collect metrics from <a class="link" href="plugins-inputs-ganglia.html" title="ganglia">Ganglia</a>, <a class="link" href="plugins-codecs-collectd.html" title="collectd">collectd</a>,
 <a class="link" href="plugins-codecs-netflow.html" title="netflow">NetFlow</a>, <a class="link" href="plugins-inputs-jmx.html" title="jmx">JMX</a>, and many other infrastructure
 and application platforms over <a class="link" href="plugins-inputs-tcp.html" title="tcp">TCP</a> and <a class="link" href="plugins-inputs-udp.html" title="udp">UDP</a>
 </li></ul></div><h3><a id="_the_web"></a>The Web<a href="https://github.com/elastic/logstash/edit/master/docs/static/introduction.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>Unlock the World Wide Web.</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p class="simpara">
 Transform <a class="link" href="plugins-inputs-http.html" title="http">HTTP requests</a> into events
-(<a class="ulink" href="https://www.elastic.co/blog/introducing-logstash-input-http-plugin" target="_top">blog</a>)
 </p><div class="itemizedlist"><ul class="itemizedlist" type="circle"><li class="listitem">
 Consume from web service firehoses like <a class="link" href="plugins-inputs-twitter.html" title="twitter">Twitter</a> for social sentiment analysis
 </li><li class="listitem">
 Webhook support for GitHub, HipChat, JIRA, and countless other applications
 </li><li class="listitem">
-Enables many <a class="ulink" href="https://www.elastic.co/guide/en/watcher/current/logstash-integration.html" target="_top">Watcher</a> alerting use cases
+Enables many <a class="ulink" href="https://www.elastic.co/products/x-pack/alerting" target="_top">Watcher</a> alerting use cases
 </li></ul></div></li><li class="listitem"><p class="simpara">
 Create events by polling <a class="link" href="plugins-inputs-http_poller.html" title="http_poller">HTTP endpoints</a> on demand
-(<a class="ulink" href="https://www.elastic.co/blog/introducing-logstash-http-poller" target="_top">blog</a>)
 </p><div class="itemizedlist"><ul class="itemizedlist" type="circle"><li class="listitem">
 Universally capture health, performance, metrics, and other types of data from web application interfaces
 </li><li class="listitem">
 Perfect for scenarios where the control of polling is preferred over receiving
 </li></ul></div></li></ul></div><h3><a id="_data_stores_and_streams"></a>Data Stores and Streams<a href="https://github.com/elastic/logstash/edit/master/docs/static/introduction.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>Discover more value from the data you already own.</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
 Better understand your data from any relational database or NoSQL store with a
-<a class="link" href="plugins-inputs-jdbc.html" title="jdbc">JDBC</a> interface (<a class="ulink" href="https://www.elastic.co/blog/logstash-jdbc-input-plugin" target="_top">blog</a>)
+<a class="link" href="plugins-inputs-jdbc.html" title="jdbc">JDBC</a> interface
 </li><li class="listitem">
-Unify diverse data streams from messaging queues like Apache <a class="link" href="plugins-outputs-kafka.html" title="kafka">Kafka</a>
-(<a class="ulink" href="https://www.elastic.co/blog/logstash-kafka-intro" target="_top">blog</a>), <a class="link" href="plugins-outputs-rabbitmq.html" title="rabbitmq">RabbitMQ</a>,
-<a class="link" href="plugins-outputs-sqs.html" title="sqs">Amazon SQS</a>, and <a class="link" href="plugins-outputs-zeromq.html" title="zeromq">ZeroMQ</a>
+Unify diverse data streams from messaging queues like Apache <a class="link" href="plugins-outputs-kafka.html" title="kafka">Kafka</a>,
+<a class="link" href="plugins-outputs-rabbitmq.html" title="rabbitmq">RabbitMQ</a>, <a class="link" href="plugins-outputs-sqs.html" title="sqs">Amazon SQS</a>, and <a class="link" href="plugins-outputs-zeromq.html" title="zeromq">ZeroMQ</a>
 </li></ul></div><h3><a id="_sensors_and_iot"></a>Sensors and IoT<a href="https://github.com/elastic/logstash/edit/master/docs/static/introduction.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>Explore an expansive breadth of other data.</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
 In this age of technological advancement, the massive IoT world unleashes endless use cases through capturing and
 harnessing data from connected sensors.
 </li><li class="listitem">
 Logstash is the common event collection backbone for ingestion of data shipped from mobile devices to intelligent
 homes, connected vehicles, healthcare sensors, and many other industry specific applications.
-</li><li class="listitem">
-<a class="ulink" href="https://www.elastic.co/elasticon/2015/sf/if-it-moves-measure-it-logging-iot-with-elk" target="_top">Watch</a> as Logstash, in
-conjunction with the broader ELK stack, centralizes and enriches sensor data to gain deeper knowledge regarding a
-residential home.
 </li></ul></div><h2><a id="_easily_enrich_everything"></a>Easily Enrich Everything<a href="https://github.com/elastic/logstash/edit/master/docs/static/introduction.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2><p>The better the data, the better the knowledge. Clean and transform your data during ingestion to gain near real-time
 insights immediately at index or output time. Logstash comes out-of-box with many aggregations and mutations along
 with pattern matching, geo mapping, and dynamic lookup capabilities.</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
@@ -1006,38 +999,38 @@ Data stores such as <a class="link" href="plugins-outputs-mongodb.html" title="m
 <style type="text/css">
 	
     
-		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=344") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=755") no-repeat;}
     
     
-      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=344")}		
-    
-	
-    
-		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=344") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=344")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=755")}		
     
 	
     
-		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=344") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=755") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=344")}		
-    
-	
-    
-		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=344") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=344")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=755")}		
     
 	
     
-		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=344") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=755") no-repeat;}
     
     
-      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=344")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=755")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=755") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=755")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=755") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=755")}		
     
 	
 </style>
@@ -1069,10 +1062,10 @@ Data stores such as <a class="link" href="plugins-outputs-mongodb.html" title="m
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=344"></script>
-<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=344"></script>
-<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=344"></script>
-<script src="https://stag-static-www.elastic.co/static/js/script.js?q=344"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=755"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=755"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=755"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=755"></script> 
      
      <style></style>
      
