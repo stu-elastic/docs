@@ -6,24 +6,24 @@ Repo: beats
   filebeat/docs_1.3      13ac8f7  Docs: Fix path for beats-dir
   filebeat/docs_5.0      1de5017  Make it clear in the docs that publish_async is still experimental (#3096) (#3103)
   filebeat/docs_5.x      01b945b  Automatic merge from master to 5.x branch (#3210)
-  filebeat/docs_master   3890150  Use kebab_case in the settings for the JSON processor (#3111) (#3209)
+  filebeat/docs_master   82c03ec  Simplify xgo copying of artifacts (#3234)
   libbeat/docs_1.0.1     890ae17  Docs: Fix path for beats-dir
   libbeat/docs_1.1       df036f1  Docs: Fix path for beats-dir
   libbeat/docs_1.2       4a8bd97  Docs: Fix path for beats-dir
   libbeat/docs_1.3       13ac8f7  Docs: Fix path for beats-dir
   libbeat/docs_5.0       1de5017  Make it clear in the docs that publish_async is still experimental (#3096) (#3103)
   libbeat/docs_5.x       01b945b  Automatic merge from master to 5.x branch (#3210)
-  libbeat/docs_master    3890150  Use kebab_case in the settings for the JSON processor (#3111) (#3209)
+  libbeat/docs_master    82c03ec  Simplify xgo copying of artifacts (#3234)
   metricbeat/docs_5.0    1de5017  Make it clear in the docs that publish_async is still experimental (#3096) (#3103)
   metricbeat/docs_5.x    01b945b  Automatic merge from master to 5.x branch (#3210)
-  metricbeat/docs_master 3890150  Use kebab_case in the settings for the JSON processor (#3111) (#3209)
+  metricbeat/docs_master 82c03ec  Simplify xgo copying of artifacts (#3234)
   packetbeat/docs_1.0.1  890ae17  Docs: Fix path for beats-dir
   packetbeat/docs_1.1    df036f1  Docs: Fix path for beats-dir
   packetbeat/docs_1.2    4a8bd97  Docs: Fix path for beats-dir
   packetbeat/docs_1.3    13ac8f7  Docs: Fix path for beats-dir
   packetbeat/docs_5.0    1de5017  Make it clear in the docs that publish_async is still experimental (#3096) (#3103)
   packetbeat/docs_5.x    01b945b  Automatic merge from master to 5.x branch (#3210)
-  packetbeat/docs_master 3890150  Use kebab_case in the settings for the JSON processor (#3111) (#3209)
+  packetbeat/docs_master 82c03ec  Simplify xgo copying of artifacts (#3234)
   topbeat/docs_1.0.1     890ae17  Docs: Fix path for beats-dir
   topbeat/docs_1.1       df036f1  Docs: Fix path for beats-dir
   topbeat/docs_1.2       4a8bd97  Docs: Fix path for beats-dir
@@ -33,7 +33,7 @@ Repo: beats
   winlogbeat/docs_1.3    13ac8f7  Docs: Fix path for beats-dir
   winlogbeat/docs_5.0    1de5017  Make it clear in the docs that publish_async is still experimental (#3096) (#3103)
   winlogbeat/docs_5.x    01b945b  Automatic merge from master to 5.x branch (#3210)
-  winlogbeat/docs_master 3890150  Use kebab_case in the settings for the JSON processor (#3111) (#3209)
+  winlogbeat/docs_master 82c03ec  Simplify xgo copying of artifacts (#3234)
 
 Repo: cloud
 --------------------------------------------------------------------------------
@@ -51,7 +51,7 @@ Repo: curator
 
 Repo: elasticsearch
 --------------------------------------------------------------------------------
-  docs/community-clients_master 850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/community-clients_master 567c65b  Replace IndicesQueriesRegistry (#22289)
   docs/groovy-api_0.90          d2bcbdf  Make REST spec param types consistent
   docs/groovy-api_1.3           1f38067  Fixed doc version links
   docs/groovy-api_1.4           49ed535  Fixed doc version links
@@ -63,9 +63,9 @@ Repo: elasticsearch
   docs/groovy-api_2.2           4d5b739  Specify fielddata formats in string docs (#21588)
   docs/groovy-api_2.3           e432064  Specify fielddata formats in string docs (#21588)
   docs/groovy-api_2.4           fcbb46d  Only update DocumentMapper if field type changes (#22165)
-  docs/groovy-api_5.0           fc39313  Only update DocumentMapper if field type changes (#22165)
-  docs/groovy-api_5.x           9f71e05  Reinex test: don't fail if iis is running on port 0
-  docs/groovy-api_master        850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/groovy-api_5.0           01a1e8d  Fixed document mistake and fit for 5.1.1 API
+  docs/groovy-api_5.x           8f77c62  Fixed document mistake and fit for 5.1.1 API
+  docs/groovy-api_master        567c65b  Replace IndicesQueriesRegistry (#22289)
   docs/java-api_0.90            d2bcbdf  Make REST spec param types consistent
   docs/java-api_1.3             1f38067  Fixed doc version links
   docs/java-api_1.4             49ed535  Fixed doc version links
@@ -77,23 +77,23 @@ Repo: elasticsearch
   docs/java-api_2.2             4d5b739  Specify fielddata formats in string docs (#21588)
   docs/java-api_2.3             e432064  Specify fielddata formats in string docs (#21588)
   docs/java-api_2.4             fcbb46d  Only update DocumentMapper if field type changes (#22165)
-  docs/java-api_5.0             fc39313  Only update DocumentMapper if field type changes (#22165)
-  docs/java-api_5.x             9f71e05  Reinex test: don't fail if iis is running on port 0
-  docs/java-api_master          850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
-  docs/java-rest_5.0            fc39313  Only update DocumentMapper if field type changes (#22165)
-  docs/java-rest_5.x            9f71e05  Reinex test: don't fail if iis is running on port 0
-  docs/java-rest_master         850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
-  docs/perl_master              850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/java-api_5.0             01a1e8d  Fixed document mistake and fit for 5.1.1 API
+  docs/java-api_5.x             8f77c62  Fixed document mistake and fit for 5.1.1 API
+  docs/java-api_master          567c65b  Replace IndicesQueriesRegistry (#22289)
+  docs/java-rest_5.0            01a1e8d  Fixed document mistake and fit for 5.1.1 API
+  docs/java-rest_5.x            8f77c62  Fixed document mistake and fit for 5.1.1 API
+  docs/java-rest_master         567c65b  Replace IndicesQueriesRegistry (#22289)
+  docs/perl_master              567c65b  Replace IndicesQueriesRegistry (#22289)
   docs/plugins_1.7              54669d6  Bump versions and add BWC indices
   docs/plugins_2.0              cbe06d1  Fixed doc version links
   docs/plugins_2.1              9a7d5e7  Fixed doc version links
   docs/plugins_2.2              4d5b739  Specify fielddata formats in string docs (#21588)
   docs/plugins_2.3              e432064  Specify fielddata formats in string docs (#21588)
   docs/plugins_2.4              fcbb46d  Only update DocumentMapper if field type changes (#22165)
-  docs/plugins_5.0              fc39313  Only update DocumentMapper if field type changes (#22165)
-  docs/plugins_5.x              9f71e05  Reinex test: don't fail if iis is running on port 0
-  docs/plugins_master           850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
-  docs/python_master            850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/plugins_5.0              01a1e8d  Fixed document mistake and fit for 5.1.1 API
+  docs/plugins_5.x              8f77c62  Fixed document mistake and fit for 5.1.1 API
+  docs/plugins_master           567c65b  Replace IndicesQueriesRegistry (#22289)
+  docs/python_master            567c65b  Replace IndicesQueriesRegistry (#22289)
   docs/reference_0.90           d2bcbdf  Make REST spec param types consistent
   docs/reference_1.3            1f38067  Fixed doc version links
   docs/reference_1.4            49ed535  Fixed doc version links
@@ -105,11 +105,11 @@ Repo: elasticsearch
   docs/reference_2.2            4d5b739  Specify fielddata formats in string docs (#21588)
   docs/reference_2.3            e432064  Specify fielddata formats in string docs (#21588)
   docs/reference_2.4            fcbb46d  Only update DocumentMapper if field type changes (#22165)
-  docs/reference_5.0            fc39313  Only update DocumentMapper if field type changes (#22165)
-  docs/reference_5.x            9f71e05  Reinex test: don't fail if iis is running on port 0
-  docs/reference_master         850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
-  docs/resiliency_master        850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
-  docs/ruby_master              850f51d  Internal: Refactor SettingCommand into EnvironmentAwareCommand (#22175)
+  docs/reference_5.0            01a1e8d  Fixed document mistake and fit for 5.1.1 API
+  docs/reference_5.x            8f77c62  Fixed document mistake and fit for 5.1.1 API
+  docs/reference_master         567c65b  Replace IndicesQueriesRegistry (#22289)
+  docs/resiliency_master        567c65b  Replace IndicesQueriesRegistry (#22289)
+  docs/ruby_master              567c65b  Replace IndicesQueriesRegistry (#22289)
 
 Repo: elasticsearch-hadoop
 --------------------------------------------------------------------------------
@@ -129,7 +129,7 @@ Repo: elasticsearch-js
 Repo: elasticsearch-net
 --------------------------------------------------------------------------------
   docs_1.x    ece99e6  Merge branch '1.x' of github.com:elastic/elasticsearch-net into 1.x
-  docs_2.x    db19acc  updated project.json dependencies for test projecT
+  docs_2.x    6cde14f  Bump assembly versions for release
   docs_5.x    d4fcc92  Use SemanticVersioning nuget package (#2482)
   docs_master 30503c1  Use SemanticVersioning nuget package (#2482)
 
@@ -156,10 +156,10 @@ Repo: kibana
   docs_4.3    b30de14  Docs: Updated Loading Sample Data to download all datasets from S3 (#8999)
   docs_4.4    fb691c7  Docs: Updated Loading Sample Data to download all datasets from S3 (#8999)
   docs_4.5    b9cb1d3  Docs: Updated Loading Sample Data to download all datasets from S3 (#8999)
-  docs_4.6    1fea6c3  docs: known plugins for 4.x
+  docs_4.6    2d33d2f  build: remove deepModules hackery (#9579)
   docs_5.0    eea7d72  docs: branch is now a variable
-  docs_5.x    dfd16c6  Add support for ButtonGroups to contain a single Button. (#9566)
-  docs_master f0d0004  Add support for ButtonGroups to contain a single Button. (#9565)
+  docs_5.x    b94b064  [webpack] allow jsx in .js files (#9584)
+  docs_master 3079cb4  [webpack] allow jsx in .js files (#9578)
 
 Repo: logstash
 --------------------------------------------------------------------------------
@@ -169,9 +169,9 @@ Repo: logstash
   docs_2.2    61a4f5d  Merge pull request #260 from dedemorton/logstash_issue#5558_2.2
   docs_2.3    9a20ea8  Merge pull request #336 from dedemorton/backport_#332_2.3
   docs_2.4    d6cff41  2.4.1 release notes
-  docs_5.0    3012f63  Sync from elastic/logstash@99e22c1bfc04005add4ffad128d65aa3cb9a16a0
-  docs_5.x    f049776  Sync from elastic/logstash@0b881c78a64b76fcaea7ff6ad6382bf9da5c29fe
-  docs_master 16cccb1  Sync from elastic/logstash@35999aeeaba71b7d4adde5bbb738ed377f3823f2
+  docs_5.0    a598740  Sync from elastic/logstash@712a32c96b3017946897cf29b1f928a0fc3f4ea4
+  docs_5.x    96d5895  Sync from elastic/logstash@1bff586c8a6b8bd301d4023972a36853cd918aec
+  docs_master 21875c8  Sync from elastic/logstash@8e44786a7a14e10d166a2fac9c0a301867bff819
 
 Repo: sense
 --------------------------------------------------------------------------------
@@ -184,19 +184,19 @@ Repo: stack
 Repo: x-plugins
 --------------------------------------------------------------------------------
   docs/public/graph_2.3           9e12520  minor typo (#2909)
-  docs/public/graph_2.4           1d64ba5  Docs: Link to reporting docs in watcher email http attachment
+  docs/public/graph_2.4           28d5511  ui: do not block builds on dependency checks
   docs/public/marvel_2.0          70d363d  [DOCS] Fix LDAP realm timeout settings (#4255)
   docs/public/marvel_2.1          46a2695  [DOCS] Fix LDAP realm timeout settings (#4255)
   docs/public/marvel_2.2          a7ce823  [DOCS] Fix LDAP realm timeout settings (#4255)
   docs/public/marvel_2.3          9e12520  minor typo (#2909)
-  docs/public/marvel_2.4          1d64ba5  Docs: Link to reporting docs in watcher email http attachment
+  docs/public/marvel_2.4          28d5511  ui: do not block builds on dependency checks
   docs/public/marvel_marvel-1.3   4830ef3  Updated docs-too-old header
-  docs/public/reporting_2.4       1d64ba5  Docs: Link to reporting docs in watcher email http attachment
+  docs/public/reporting_2.4       28d5511  ui: do not block builds on dependency checks
   docs/public/shield_2.0          70d363d  [DOCS] Fix LDAP realm timeout settings (#4255)
   docs/public/shield_2.1          46a2695  [DOCS] Fix LDAP realm timeout settings (#4255)
   docs/public/shield_2.2          a7ce823  [DOCS] Fix LDAP realm timeout settings (#4255)
   docs/public/shield_2.3          9e12520  minor typo (#2909)
-  docs/public/shield_2.4          1d64ba5  Docs: Link to reporting docs in watcher email http attachment
+  docs/public/shield_2.4          28d5511  ui: do not block builds on dependency checks
   docs/public/shield_shield-1.0   b2b9edf  Updated docs-too-old header
   docs/public/shield_shield-1.1   c1bfd7a  Updated docs-too-old header
   docs/public/shield_shield-1.2   a38e2bd  Updated docs-too-old header
@@ -205,6 +205,6 @@ Repo: x-plugins
   docs/public/watcher_2.1         46a2695  [DOCS] Fix LDAP realm timeout settings (#4255)
   docs/public/watcher_2.2         a7ce823  [DOCS] Fix LDAP realm timeout settings (#4255)
   docs/public/watcher_2.3         9e12520  minor typo (#2909)
-  docs/public/watcher_2.4         1d64ba5  Docs: Link to reporting docs in watcher email http attachment
+  docs/public/watcher_2.4         28d5511  ui: do not block builds on dependency checks
   docs/public/watcher_watcher-1.0 c6aca87  Make REST spec params consistent
-  docs/public_5.0                 05191ff  [ci] Add jdk9 target to the dev-tools/ci script
+  docs/public_5.0                 cfac955  Skip pre-built transport client test on JDK 9
