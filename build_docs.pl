@@ -449,6 +449,7 @@ sub revoke_github_creds {
     {
         local $ENV{GIT_TERMINAL_PROMPT} = 0;
         my $creds = git_creds( 'fill', $fill );
+        print "GOT CREDS: \n$creds\n";
         return unless $creds =~ /password=\S+/;
     }
 
