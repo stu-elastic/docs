@@ -91,8 +91,8 @@ Repo: elasticsearch
   docs/plugins_2.3              e432064  Specify fielddata formats in string docs (#21588)
   docs/plugins_2.4              fcbb46d  Only update DocumentMapper if field type changes (#22165)
   docs/plugins_5.0              01a1e8d  Fixed document mistake and fit for 5.1.1 API
-  docs/plugins_5.x              8f77c62  Fixed document mistake and fit for 5.1.1 API
-  docs/plugins_master           567c65b  Replace IndicesQueriesRegistry (#22289)
+  docs/plugins_5.x              490f9c9  Repeated language analyzers (#22240)
+  docs/plugins_master           dec6fc2  Repeated language analyzers (#22240)
   docs/python_master            567c65b  Replace IndicesQueriesRegistry (#22289)
   docs/reference_0.90           d2bcbdf  Make REST spec param types consistent
   docs/reference_1.3            1f38067  Fixed doc version links
@@ -105,9 +105,9 @@ Repo: elasticsearch
   docs/reference_2.2            4d5b739  Specify fielddata formats in string docs (#21588)
   docs/reference_2.3            e432064  Specify fielddata formats in string docs (#21588)
   docs/reference_2.4            fcbb46d  Only update DocumentMapper if field type changes (#22165)
-  docs/reference_5.0            01a1e8d  Fixed document mistake and fit for 5.1.1 API
-  docs/reference_5.x            8f77c62  Fixed document mistake and fit for 5.1.1 API
-  docs/reference_master         567c65b  Replace IndicesQueriesRegistry (#22289)
+  docs/reference_5.0            f63c445  Repeated language analyzers (#22240)
+  docs/reference_5.x            490f9c9  Repeated language analyzers (#22240)
+  docs/reference_master         dec6fc2  Repeated language analyzers (#22240)
   docs/resiliency_master        567c65b  Replace IndicesQueriesRegistry (#22289)
   docs/ruby_master              567c65b  Replace IndicesQueriesRegistry (#22289)
 

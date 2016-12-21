@@ -85,8 +85,8 @@ elasticsearch:
   _docs/plugins_2.3: e432064358dcf0a2a76683deebccf090859d8183
   _docs/plugins_2.4: fcbb46dfd45562a9cf00c604b30849a6dec6b017
   _docs/plugins_5.0: 01a1e8d93e62fae36960a1fcd27f04a4c1917858
-  _docs/plugins_5.x: 8f77c62c3df2568cf61ef329d74c39c01b1ebf1b
-  _docs/plugins_master: 567c65b0d57e92cd530dafa7f55de7ba681af13e
+  _docs/plugins_5.x: 490f9c9685e4d81778325a5332a58242f34dbaa9
+  _docs/plugins_master: dec6fc2d405d3efc5729e1bb7885fce10a62a477
   _docs/python_master: 567c65b0d57e92cd530dafa7f55de7ba681af13e
   _docs/reference_0.90: d2bcbdfc8fbf278986de6a998eb82f01b1795537
   _docs/reference_1.3: 1f38067542f59a8bf2d04c18396c7bef055a9e5c
@@ -99,9 +99,9 @@ elasticsearch:
   _docs/reference_2.2: 4d5b739dc2de587786d134fdf2c8e3aa043d8125
   _docs/reference_2.3: e432064358dcf0a2a76683deebccf090859d8183
   _docs/reference_2.4: fcbb46dfd45562a9cf00c604b30849a6dec6b017
-  _docs/reference_5.0: 01a1e8d93e62fae36960a1fcd27f04a4c1917858
-  _docs/reference_5.x: 8f77c62c3df2568cf61ef329d74c39c01b1ebf1b
-  _docs/reference_master: 567c65b0d57e92cd530dafa7f55de7ba681af13e
+  _docs/reference_5.0: f63c445740a6ecd8dac730971012a32688129359
+  _docs/reference_5.x: 490f9c9685e4d81778325a5332a58242f34dbaa9
+  _docs/reference_master: dec6fc2d405d3efc5729e1bb7885fce10a62a477
   _docs/resiliency_master: 567c65b0d57e92cd530dafa7f55de7ba681af13e
   _docs/ruby_master: 567c65b0d57e92cd530dafa7f55de7ba681af13e
 elasticsearch-hadoop:
