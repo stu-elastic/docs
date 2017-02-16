@@ -586,6 +586,14 @@ class A2X(AttrDict):
         resources = resources[:]
         resources += find_resources(html_files, 'link', 'href',
                         lambda attrs: attrs.get('type') == 'text/css')
+        # TODO(stu): added to pick up swagger javascript
+        resources += find_resources(html_files, 'script', 'src',
+                        lambda attrs: attrs.get('type') == 'text/javascript'
+                                      and 'src' in attrs)
+        # TODO(stu): pick up swagger.json
+        resources += find_resources(html_files, 'link', 'href',
+                        lambda attrs: attrs.get('type') == 'application/json')
+        # TODO(stu): /added
         resources += find_resources(html_files, 'img', 'src')
         resources += self.resource_files
         resources = list(set(resources))    # Drop duplicates.
